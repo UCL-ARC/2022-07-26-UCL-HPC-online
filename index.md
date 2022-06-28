@@ -349,9 +349,9 @@ please preview your site before committing, and make sure to run
 {% endcomment %}
 <h2 id="syllabus">Syllabus</h2>
 
-<p>This course aims to teach you how to access and use the Myriad computing cluster at UCL - how to access Myriad, transfer files on and off the cluster, find and use relevant software and run your own code. We do not cover how to program for High Performance Computing. If you want to learn more about how HPCs work and how to wrote code optimised for parallel computing, we recommend the <a  href="https://www.archer2.ac.uk/training/">ARCHER2 training courses</a>. Check the 'Course Descriptions' for suggestions of what courses would be appropriate for your level, and if there isn't an upcoming live course suitable for you you can watch recordings of previous courses on their YouTube channel.
+<p>This course aims to teach you how to access and use the Myriad computing cluster at UCL - how to access Myriad, transfer files on and off the cluster, find and use relevant software and run your own code. We do not cover how to program for High Performance Computing.</p>
 
-We will cover the following topics:
+<p>We will cover the following topics:</p>
 
 {% if site.carpentry == "swc" %}
 {% include swc/syllabus.html %}
@@ -361,6 +361,7 @@ We will cover the following topics:
 {% include lc/syllabus.html %}
 {% endif %}
 
+<p>If you want to learn more about how HPCs work and how to wrote code optimised for parallel computing, we recommend the <a  href="https://www.archer2.ac.uk/training/">ARCHER2 training courses</a>. Check the 'Course Descriptions' for suggestions of what courses would be appropriate for your level, and if there isn't an upcoming live course suitable for you you can watch recordings of previous courses on their YouTube channel.</p>
 <hr/>
 
 
